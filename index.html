@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UC</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.2-dist/css/bootstrap.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <style>
+/*h5{
+    height: 5px;
+    background-color: rgb(59, 211, 59);
+}*/
+.navtop{
+    border-top: 7px solid rgb(39, 209, 113);
+    background-color: rgb(228, 228, 228);
+    height: 27px;
+}
+.navtop a {
+    text-decoration: none;
+    color: black;
+    padding-left: 20px;
+}
+.navtop a:hover {
+
+ color: blue;
+}
+
+.navtop #sidenav {
+ float: right;
+}
+
+.nav-link {
+  display: block;
+  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+  font-size: var(--bs-nav-link-font-size);
+  font-weight: var(--bs-nav-link-font-weight);
+  color: var(--bs-nav-link-color);
+  text-decoration: none;
+  background: none;
+  border: 0;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+@media (prefers-reduced-motion: reduce) {
+  .nav-link {
+    transition: none;
+  }
+}
+.nav-link:hover, .nav-link:focus {
+  color: var(--bs-nav-link-hover-color);
+}
+.nav-link:focus-visible {
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.nav-link.disabled, .nav-link:disabled {
+  color: var(--bs-nav-link-disabled-color);
+  pointer-events: none;
+  cursor: default;
+}
+
+.navbar-nav {
+  --bs-nav-link-padding-x: 0;
+  --bs-nav-link-padding-y: 0.5rem;
+  --bs-nav-link-font-weight: ;
+  --bs-nav-link-color: var(--bs-navbar-color);
+  --bs-nav-link-hover-color: var(--bs-navbar-hover-color);
+  --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  margin-left: 75%;
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered p {
+  -webkit-text-fill-color:solid black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  
+}
+.grid-container {
+  position: relative;
+  
+  width: 90%;
+  margin-left:  50px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: rgb(100, 233, 100);
+  padding: 10px;
+}
+.centered button {
+  background-color: chartreuse;
+}
+
+.container1 {
+  background-color: rgb(243, 236, 236);
+  width: 400px;
+  height: 500px;
+  border-top: 5px solid darkgreen;
+  position: relative;
+  margin-left: 50px;
+  display: inline-block;
+}
+
+.container1 p {
+  margin-left: 20px;
+  margin-top: 15px;
+  
+}
+
+.container1 a  :hover {
+color: red;
+text-underline-offset: 5px solid black;
+}
+
+.container2 {
+  background-color: rgb(243, 236, 236);
+  width: 500px;
+  height: 500px;
+  border-top: 5px solid darkgreen;
+  margin-right: 50px;
+  float: right;
+}
+
+.container3 {
+  width: 90%;
+  height: 400px;
+  background-color: lightgreen;
+  position: relative;
+  margin: 50px;
+  
+}
+
+.grid3 {
+  background-color:#fff;
+  width: 80%;
+  display: grid;
+  height: 250px;
+  margin: 80px;
+  grid-template-columns: auto auto auto;
+  column-gap: 15px;
+  border: 15px solid #fff;
+}
+
+#box1{
+background-color:rgb(255, 188, 199);
+
+
+}
+
+#box2{
+  background-color:rgb(255, 188, 199);
+
+}
+
+#box3{
+  background-color:rgb(255, 188, 199);
+
+
+}
+
+#box1 :hover {
+  color: red;
+}
+
+#box2 :hover {
+  color: red;
+}
+
+#box3 :hover {
+  color: red;
+}
+
+h3 {
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+}
+    </style>
+</head>
+<body>
+   <div class="navtop">
+    <a href="mailto:eashanshaik@gmail.com" class="fa fa-envelope">eashanshaik@gmail.com</a>
+    <a href="telto:9391925026" class="fa fa-mobile">+919391925026</a>
+    <section id="sidenav">
+    <a href="www.insta" class="fa fa-instagram"></a>
+    <a href="www.rov" class="fa fa-facebook"></a> 
+    <a href="www.insta" class="fa fa-twitter"></a>
+    <a href="www.rov" class="fa fa-linkedin"></a> 
+   </section>
+
+   </div>
+    
+   <nav class="navbar navbar-expand-lg ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Green</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="middelimage">
+    <img src="./media/wp2752757-buildings-wallpapers.jpg" width="90%" style="margin-top: 50px;margin-left: 50px;margin-right: 50px;">
+   <div class="centered"><center><P style="margin-top: 90px;">HI WELCOME TO THE WEBSITE</P></center><br>
+  <br>
+   <center><p>My Name is Eashan I'm here to introduce my web-design</p><br></center>
+   <center><p>This is the task of my project so that i can design my websit by using the css and bootstrap</p></center>
+  <center><input type="button" value="readmore" style="color: #fff; background-color: darkgreen;"</center>
+
+  </div>   
+  </div>
+  </div>
+
+    <div class="grid-container">
+  <div class="grid-item">  <l class="w3-xxxlarge"><i class="fa fa-desktop"></i> </li><br>
+  <h6 style="display: inline;">NAME</h6>
+    <p style="font-size: small; font-weight: 500;font-family: Arial, Helvetica, sans-serif; width: 100px;">hi my name is Eashan</p></div>
+  <div class="grid-item">  <l class="w3-xxxlarge"><i class="fa fa-suitcase"></i> </li><br>
+  <h6 style="display: inline; ">NAME</h6>
+    <p style="font-size: small; font-weight: 500;font-family: Arial, Helvetica, sans-serif;  width: 100px;">hi my name is Eashan</p></div>
+ <div class="grid-item"><l class="w3-xxxlarge"><i class="fa fa-user"></i> </li><br>
+  <h6 style="display: inline;">NAME</h6>
+    <p style="font-size: small; font-weight: 500;font-family: Arial, Helvetica, sans-serif; width: 100px;">hi my name is Eashan</p></div>
+ </div> 
+</div>
+</div>
+
+<div class="container1">
+<p><a href="www.stdio.com"><i class="fa fa-map-marker" aria-hidden="true" style="color: darkgreen;border-radius: 5px; background-color: lightgreen;"></i><b>Location</b>
+</a></p>
+<p>P108 Adam street.NEWYORK,NY 535022</p>
+
+<p><a href="mailto:eashanshaik@gmail.com"><i class="fa fa-envelope" aria-hidden="true" style="color: darkgreen;background-color: lightgreen; border-radius: 5px;" ></i><b>mail</b>
+</a></p>
+<p>eashanshaik@gmail.com</p>
+
+<p><a href="telto:9391925026"><i class="fa fa-phone" aria-hidden="true" style="color: darkgreen;background-color: lightgreen; border-radius: 5px;" ></i><b>Call</b>
+</a></p>
+<p>9391925026</p>
+
+<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3803.039931800776!2d80.00287107279428!3d17.600838583323128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a348f5452271b5f%3A0x266853c12bce7b60!2sHanuman%20Temple!5e0!3m2!1sen!2sin!4v1695741020755!5m2!1sen!2sin" width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+</div>
+
+<div class="container2">
+  
+<div class="side1" style="display: inline-block;margin-top: 25px; margin-left: 20px;">
+  <p>Your Name</p>
+  <p><input type="text"></p>
+</div>
+<div class="side2" style="float: right;margin-top: 25px; margin-right: 20px;">
+  <p>Your Mail</p>
+  <p><input type="text"></p>
+</div>
+<div class="side3" style="margin-left: 20px;">
+  <p>Subject</p>
+  <p><textarea rows="15" cols="50" placeholder="Message-here"></textarea></p>
+</div>
+</div>
+
+  <div class="container3">
+<div class="heading">
+  <center><p><b>Team</b></p></center>
+</div>
+
+<div class="heading1">
+  <center><p>Hi we are here to help by providing the information About our web-site</p></center>
+</div>
+
+<div class="grid3">
+ <section id="box1">
+  <center><img src="./media/DSC_8095.jpg" style=" border-radius: 180px;width: 70px;"></center><br>
+ <center><p>Eashan shaik</p></center>
+ <center><a href="www.eashan"><i class="fa fa-facebook"></i></a><a><i class="fa fa-instagram"></i></a><a><i class="fa fa-twitter"></i></a><a><i class="fa fa-linkedin"></i></a></center>
+</section>
+ <section id="box2">
+  <center><img src="./media/DSC_8095.jpg" style=" border-radius: 180px;width: 70px;"></center><br>
+ <center><p>Eashan shaik</p></center>
+ <center><a href="www.eashan"><i class="fa fa-facebook"></i><i class="fa fa-instagram"></i><i class="fa fa-twitter"></i><i class="fa fa-linkedin"></i></a></center>
+
+ </section>
+ <section id="box3">
+  <center><img src="./media/DSC_8095.jpg" style=" border-radius: 180px;width: 70px;"></center><br>
+  <center><p>Eashan shaik</p></center>
+  <center><a href="www.eashan"><i class="fa fa-facebook"></i><i class="fa fa-instagram"></i><i class="fa fa-twitter"></i><i class="fa fa-linkedin"></i></a></center>
+ </section>
+</div>
+  <center><h3>Thank You For Visiting</h3></center>
+</body>
+</html>
